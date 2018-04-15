@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "folder_exclude_patterns": [
+        "node_modules",
+        "es",
+        "lib",
+        "umd"
+      ]
+    }
+  ],
+  "settings": {
+    "js_prettier": {
+      "node_path": "/Users/stefan/.nvm/versions/node/v8.9.1/bin/node"
+    },
+    "SublimeLinter": {
+      "paths": {
+        "linux": [],
+        "osx": [
+          "/Users/stefan/.nvm/versions/node/v8.9.1/bin/node"
+        ],
+        "windows": []
+      }
+    }
+  }
+}
