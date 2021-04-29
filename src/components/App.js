@@ -31,6 +31,8 @@ class App extends Component {
           w={this.state.parameters.width}
           h={this.state.parameters.height}
           al={this.state.parameters.skew}
+          offX={this.state.parameters.offsetX}
+          offY={this.state.parameters.offsetY}
         />
         <Parameters
           definitions={params}

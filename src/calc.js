@@ -1,5 +1,3 @@
-const oPos = [100, 200]
-
 // helpers
 const rd = al => Math.sin(-al/180*Math.PI)
 
@@ -24,7 +22,7 @@ export const rotR = (vecs) => vecs.map(([x, y]) => ([-y, x]))
 
 export const t = ([tx, ty]) => vecs => vecs.map(([x, y]) => ([x + tx, y + ty]))
 
-export const o = (vecs) => t(oPos)(vecs)
+export const o = (oPos) => (vecs) => t(oPos)(vecs)
 
 export const path = (vecs) => {
   const path = vecs.map(([x, y]) => ({ x, y }))
